@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		848992381A5F8D2F00EB1523 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 848992371A5F8D2F00EB1523 /* README.md */; };
 		A82098DA1A5011E100B647E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A82098D91A5011E100B647E5 /* main.m */; };
 		A82098DD1A5011E100B647E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A82098DC1A5011E100B647E5 /* AppDelegate.m */; };
 		A82098E01A5011E100B647E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82098DF1A5011E100B647E5 /* ViewController.m */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		848992371A5F8D2F00EB1523 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		A82098D41A5011E100B647E5 /* SingletonPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingletonPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82098D81A5011E100B647E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A82098D91A5011E100B647E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 		A82098D71A5011E100B647E5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				848992371A5F8D2F00EB1523 /* README.md */,
 				A82098D81A5011E100B647E5 /* Info.plist */,
 				A82098D91A5011E100B647E5 /* main.m */,
 			);
@@ -234,6 +237,7 @@
 			files = (
 				A82098E01A5011E100B647E5 /* ViewController.m in Sources */,
 				A82099001A50126300B647E5 /* SAlertView.m in Sources */,
+				848992381A5F8D2F00EB1523 /* README.md in Sources */,
 				A82098DD1A5011E100B647E5 /* AppDelegate.m in Sources */,
 				A82098DA1A5011E100B647E5 /* main.m in Sources */,
 			);
@@ -428,6 +432,7 @@
 				A82098F91A5011E100B647E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A82098FA1A5011E100B647E5 /* Build configuration list for PBXNativeTarget "SingletonPatternTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +441,7 @@
 				A82098FC1A5011E100B647E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
